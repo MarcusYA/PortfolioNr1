@@ -63,3 +63,25 @@
     size: 50%;
 }
 
+.footer {
+    background: black;
+    display: flex;
+    align-items: center;
+    padding: 10px 10 px;
+    border-top: 1px solid white;
+    position: fixed;
+    bottom:0; left:0; right: 0;
+}
+
+.googlemap {
+   size: 30%;
+}
+
+iframe {
+    width: 150%;
+    height: 200px;
+}
+
+.contactsection {
+
+}
