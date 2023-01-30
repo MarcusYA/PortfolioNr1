@@ -21,7 +21,6 @@
     position: relative;
     isolation: isolate;
     
-    
 }
 
 .background::after {
@@ -39,10 +38,14 @@
     display: flex;
     align-items: center;
     padding: 10px 10 px;
-    border-bottom: 1px solid white;
-    position: fixed;
     top:0; left:0; right: 0;
 }
+
+.header_container {
+    display: flex;
+    background-color: black;
+}
+
 
 .header h1 {
     color: white;
@@ -51,6 +54,7 @@
 .header .navbar a {
     font-size: 20px;
     color: white;
+    left: 0;
 }
 
 .header .navbar a:hover {
@@ -64,24 +68,30 @@
 }
 
 .footer {
-    background: black;
-    display: flex;
-    align-items: center;
-    padding: 10px 10 px;
-    border-top: 1px solid white;
-    position: fixed;
     bottom:0; left:0; right: 0;
 }
 
+.container {
+    display: flex;
+    background-color: black;
+}
+
+.container div {
+    align-items: center;
+    margin: 10px;
+    width: 100%;
+}
+
 .googlemap {
-   size: 30%;
+   width: 10%;
 }
 
 iframe {
-    width: 150%;
-    height: 200px;
+    width: 100%;
+    height: 100%;
 }
 
 .contactsection {
 color: white;
+left: 0;
 }
